@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DK Shop</title>
+    <link rel="icon" href="img/icon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Phần đầu trang -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <img src="img/icon.ico" width="40" height="40" alt="DK Shop">
+                <a class="navbar-brand text-white" href="index.html">DK Shop</a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="index.html">Trang chủ<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sản phẩm
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="mouse.html">Chuột máy tính</a>
+                                <a class="dropdown-item" href="keyboard.html">Bàn phím máy tính</a>
+                                <a class="dropdown-item" href="laptop.html">Laptop</a>
+                                <a class="dropdown-item" href="accessories.html">Phụ kiện</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">Về chúng tôi</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 text-white">
+                    <input class="form-control text-dark mr-sm-2" type="search" placeholder="Nhập từ khoá" aria-label="Search">
+                    <button class="btn btn-outline-light text-white my-2 my-sm-0" type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <!-- Kết thúc phần đầu -->
+
+    <!-- ////// PHẦN NỘI DUNG CHÍNH //////-->
+    <main>
+        <section class="title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action active dropdown"> Cras justo odio</a>
+                            <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                            <a href="#" class="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <a href="#"><img class="d-block w-100" src="img/Banner1.jpg" alt="First slide"></a>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <a href="#"><img class="d-block w-100" src="img/Banner4.jpg" alt="Second slide"></a>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <a href="#"><img class="d-block w-100" src="img/Banner5.jpg" alt="Third slide">
+                                        </div></a>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="#"><img src="img/Banner2.png" class="img-fluid mt-1" alt="Responsive image"></a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <a href="#"><img src="img/Banner3.jpg" class="img-fluid mt-1" alt="Responsive image"></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="#"><img src="img/Banner6.jpg" class="img-fluid mt-1" alt="Responsive image"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="shop">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-white name">Chuột đang hot</h2>
+                    </div>
+                </div>
+                <div class="row line">
+                    <div class="col-md-6 col-lg-3 mb-3 product">
+                        <figure>
+                            <img src="img/Product/Mouse1.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Chuột Không Dây DareU LM115G</h5>
+                                <p class="text-danger"><b>169.000₫</b></p>
+                                <p class="detail">
+                                    Sensor: PAW3512 <br>
+                                    Sóng 2.4G <br>
+                                    DPI: 800-1200-1600 <br>
+                                    Pin: 1 pin AA</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3 product">
+                        <figure>
+                            <img src="img/Product/Mouse2.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Chuột gaming logitech G102 Prodigy</h5>
+                                <p class="text-danger"><b>419.000₫</b></p>
+                                <p class="detail">
+                                    Kiểu dáng đơn giản <br>
+                                    6 nút có thể lập trình <br>
+                                    Mắt đọc quang học 8000 DPI <br>
+                                    Tùy chỉnh DPI trực tiếp trên chuột bằng Logitech Gaming Software <br>
+                                    Bộ nhớ trong <br>
+                                    Đèn led RGB</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3 product">
+                        <figure>
+                            <img src="img/Product/Mouse3.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Chuột Không Dây Logitech M331 Silent Plus</h5>
+                                <p class="text-danger"><b>277.000₫</b></p>
+                                <p class="detail">
+                                    Độ phân giải: 1000DPI <br>
+                                    3 nút nhấn cơ bản và 1 cần gạt on/off <br>
+                                    Kết nối không dây 2.4Ghz <br>
+                                    Khoảng cách kết nối: 10m <br>
+                                    Sử dụng pin AA với cảm biến quang giúp kéo dài tuổi thọ pin</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3 product">
+                        <figure>
+                            <img src="img/Product/Mouse4.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Chuột Chơi Game Không Dây Fuller (Fühlen) X100 – Chế Độ
+                                    Sạc
+                                    Kép
+                                    –
+                                    Bản Ánh Lửa</h5>
+                                <p class="text-danger"><b>367.000₫</b></p>
+                                <p class="detail">
+                                    Chơi game; làm việc được cả 2 chế độ không dây và có dây <br>
+                                    Độ phân giải từ 250 đến tối đa 2000 DPI; <br>
+                                    Điều chỉnh 8 mức phân giải khác nhau (DPI) 250; 500; 750; 1000; 1250; 1500;
+                                    1750;
+                                    2000</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-white name">Bàn phím đang hot</h2>
+                    </div>
+                </div>
+                <div class="row line">
+                    <div class="col-md-6 col-lg-3 product">
+                        <figure>
+                            <img src="img/Product/Keyboard1.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Bàn Phím Giả Cơ Chuyên Game R8 1822 Led 7 Màu</h5>
+                                <p class="text-danger"><b>150.000₫</b></p>
+                                <p class="detail">
+                                    Chữ khắc Laser chống bay <br>
+                                    Kết nối: USB 2.0, tương thích mọi hệ điều hành <br>
+                                    Độ bền phím > 10.000.000 lượt bấm <br>
+                                    Số Phím : 104 phím <br>
+                                    Antighost bấm 1 lần được 19 phím</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3 product">
+                        <figure>
+                            <img src="img/Product/Keyboard2.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Bàn Phím Bluetooth Logitech K380</h5>
+                                <p class="text-danger"><b>637.000₫</b></p>
+                                <p class="detail">
+                                    Cấu trúc bàn phím chuẩn <br>
+                                    Kết nối không dây 2.4Ghz <br>
+                                    Thời gian sử dụng lâu <br>
+                                    Sử dụng 2 pin AA</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3 product">
+                        <figure>
+                            <img src="img/Product/Keyboard3.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Bàn Phím Có Dây Dell KB216</h5>
+                                <p class="text-danger"><b>163.000₫</b></p>
+                                <p class="detail">
+                                    Cổng giao tiếp USB <br>
+                                    Có đường thoát nước lớn hơn giúp việc thoát nước dễ dàng nhanh chóng, không
+                                    đọng
+                                    nước
+                                    trên bàn phím <br>
+                                    Dây 2m <br>
+                                    Có 6 miếng đệm cao su phía dưới bán phím để tránh trượt trong quá trình sử
+                                    dụng
+                                    <br>
+                                    Các phím được bố trí theo công nghệ Zero Degree Titl không gây tiếng ồn khi
+                                    sử
+                                    dụng</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-3 product">
+                        <figure>
+                            <img src="img/Product/Keyboard4.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Bàn Phím Game Có Dây Fuhlen M87S RGB Blue Switch</h5>
+                                <p class="text-danger"><b>790.000₫</b></p>
+                                <p class="detail">
+                                    Kiểu bàn phím, số phím: 87 phím cơ nhỏ gọn <br>
+                                    Loại đèn: Đèn nền LED RGB với nhiều chế độ điều chỉnh <br>
+                                    Loại switch: Blue switches với vòng đời 55 triệu lần nhấn <br>
+                                    Kiểu giao tiếp: Giao tiếp qua cổng USB, đầu USB được mạ vàng nhằm tăng khả
+                                    năng
+                                    tiếp
+                                    xúc</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-white name">Laptop đang hot</h2>
+                    </div>
+                </div>
+                <div class="row line">
+                    <div class="col-md-6 col-lg-3 product">
+                        <figure>
+                            <img src="img/Product/Laptop1.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Asus Vivobook S14 S410UA-EB003T</h5>
+                                <p class="text-danger"> <b>15.990.000₫</b></p>
+                                <p class="detail">
+                                    Màn Hình : 14 inch Full HD Wide View <br>
+                                    CPU : Intel Core i5-8250U <br>
+                                    Ram : 4 GB DDR4 <br>
+                                    VGA : Intel UHD Graphics 620 <br>
+                                    HĐH : Windows 10 (64bit) <br>
+                                    Nặng : 1.43 kg</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-lg-3 product">
+                        <figure>
+                            <img src="img/Product/Laptop2.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Asus X441UA-WX027</h5>
+                                <p class="text-danger"> <b>8.990.000₫</b></p>
+                                <p class="detail">
+                                    Màn Hình : 14 inchHD LED backlight <br>
+                                    CPU : Intel Core i3 <br>
+                                    Ram : 4 GB DDR4 <br>
+                                    VGA : Intel HD Graphics Share <br>
+                                    HĐH : Free DOS <br>
+                                    Nặng : 2.09 Kg</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-lg-3 product">
+                        <figure>
+                            <img src="img/Product/Laptop3.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Asus FX503VD-E4082T/Core i5-7300HQ</h5>
+                                <p class="text-danger"> <b>20.490.000₫</b></p>
+                                <p class="detail">
+                                    Màn Hình : 15.6 inch Full HD <br>
+                                    CPU : Intel Core i5-7300HQ <br>
+                                    Ram : 8 GB, DDR4, 2400MHz <br>
+                                    VGA : NVIDIA Geforce GTX 1050 4 GB <br>
+                                    HĐH : Windows 10 Home <br>
+                                    Nặng : 2.2 Kg</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-lg-3 product">
+                        <figure>
+                            <img src="img/Product/Laptop4.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Asus X541UV-GO607</h5>
+                                <p class="text-danger"> <b>12.490.000₫</b></p>
+                                <p class="detail">
+                                    Màn Hình : 15.6 inchHD LED backlight <br>
+                                    CPU : Intel, Core i5, 2.50 GHz <br>
+                                    Ram : 4 GB DDR4 <br>
+                                    VGA : NVIDIA Geforce 920MX 2 GB <br>
+                                    HĐH : Free DOS <br>
+                                    Nặng : 2.0 kg</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-white name">Phụ kiện đang hot</h2>
+                    </div>
+                </div>
+                <div class="row line">
+                    <div class="col-md-6 col-lg-3 product">
+                        <figure>
+                            <img src="img/Product/accessories1.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Tấm Lót Chuột Bản Đồ Bo Viền Size Lớn</h5>
+                                <p class="text-danger"> <b>88.000₫</b></p>
+                                <p class="detail">
+                                    Chất Liệu : Vải + Cao su <br>
+                                    Kích thước: Dài 90cm x Rộng 40cm x Dầy 0.2cm <br>
+                                    Bo viền xung quanh chống rách <br>
+                                    Thích hợp tất cả các loại chuột <br>
+                                    Cảm giác êm tay chống lạnh vào mùa đông <br>
+                                    Chống chai tay cho các game thủ</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-lg-3 product">
+                        <figure>
+                            <img src="img/Product/accessories2.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Tay Cầm Microsoft Xbox One S</h5>
+                                <p class="text-danger"> <b>1.150.000₫</b></p>
+                                <p class="detail">
+                                    Kết nối không dây <br>
+                                    Dành cho máy tính và Xbox 360 <br>
+                                    Phản hồi Rung <br>
+                                    Tiện dụng</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-lg-3 product">
+                        <figure>
+                            <img src="img/Product/accessories3.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Tai Nghe Gaming Kingston HyperX Cloud Stinger</h5>
+                                <p class="text-danger"> <b>1.250.000₫</b></p>
+                                <p class="detail">
+                                    Tai nghe: Driver: Dynamic, 53mm với nam châm neodymium <br>
+                                    Đáp ứng tần số: 18Hz-23.000 Hz <br>
+                                    Trở kháng: 30 Ω <br>
+                                    Micro: Đáp tuyến tần số 50 Hz-18.000 Hz <br>
+                                    Độ nhạy -40 dBV (0 dB=1 V/Pa,1 kHz)</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 col-lg-3 product">
+                        <figure>
+                            <img src="img/Product/accessories4.jpg" alt="" class="img-fluid">
+                            <figcaption>
+                                <h5>Tay Bấm Gaming Logitech F310</h5>
+                                <p class="text-danger"> <b>490.000₫</b></p>
+                                <p class="detail">
+                                    Hỗ trợ trò chơi mở rộng <br>
+                                    Bố cục quen thuộc tương tự máy chơi game console <br>
+                                    4 phím di chuyển D-pad riêng <br>
+                                    Có thể tùy chỉnh các nút theo phần mềm quản lí <br>
+                                    Dây cáp dài: 1.8m</p>
+                                <a href="#" class="p-2 mb-2 bg-info text-white">Mua ngay</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ////// Kết thúc PHẦN NỘI DUNG CHÍNH //////-->
+
+    <!-- Phần cuối trang -->
+    <footer>
+
+    </footer>
+    <!-- Kết thúc phần cuối trang -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
